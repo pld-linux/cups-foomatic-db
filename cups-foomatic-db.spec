@@ -6,7 +6,7 @@ Release:	0.1
 License:	GPL	
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
-BuildRequires:	foomatic-db
+BuildRequires:	foomatic-db = %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
