@@ -17,433 +17,433 @@ Precompiled foomatic database - common data.
 %description
 Prekompilowana baza danych foomatic - dane wspólne.
 
-%package -n cups-foomatic-db-Alps
+%package Alps
 Summary:	Precompiled foomatic database (Alps)
 Summary(pl):	Prekompilowana baza danych foomatic (Alps)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Alps
+%description Alps
 Alps drivers.
 
-%description -n cups-foomatic-db-Alps -l pl
+%description Alps -l pl
 Sterowniki Alps.
 
-%package -n cups-foomatic-db-Apollo
+%package Apollo
 Summary:	Precompiled foomatic database (Apollo)
 Summary(pl):	Prekompilowana baza danych foomatic (Apollo)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Apollo
+%description Apollo
 Apollo drivers.
 
-%description -n cups-foomatic-db-Apollo -l pl
+%description Apollo -l pl
 Sterowniki Apollo.
 
-%package -n cups-foomatic-db-Apple
+%package Apple
 Summary:	Precompiled foomatic database (Apple)
 Summary(pl):	Prekompilowana baza danych foomatic (Apple)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Apple
+%description Apple
 Apple drivers.
 
-%description -n cups-foomatic-db-Apple -l pl
+%description Apple -l pl
 Sterowniki Apple.
 
-%package -n cups-foomatic-db-Brother
+%package Brother
 Summary:	Precompiled foomatic database (Brother)
 Summary(pl):	Prekompilowana baza danych foomatic (Brother)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Brother
+%description Brother
 Brother drivers.
 
-%description -n cups-foomatic-db-Brother -l pl
+%description Brother -l pl
 Sterowniki Brother.
 
-%package -n cups-foomatic-db-Canon
+%package Canon
 Summary:	Precompiled foomatic database (Canon)
 Summary(pl):	Prekompilowana baza danych foomatic (Canon)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Canon
+%description Canon
 Canon drivers.
 
-%description -n cups-foomatic-db-Canon -l pl
+%description Canon -l pl
 Sterowniki Canon.
 
-%package -n cups-foomatic-db-Citizen
+%package Citizen
 Summary:	Precompiled foomatic database (Citizen)
 Summary(pl):	Prekompilowana baza danych foomatic (Citizen)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Citizen
+%description Citizen
 Citizen drivers.
 
-%description -n cups-foomatic-db-Citizen -l pl
+%description Citizen -l pl
 Sterowniki Citizen.
 
-%package -n cups-foomatic-db-Compaq
+%package Compaq
 Summary:	Precompiled foomatic database (Compaq)
 Summary(pl):	Prekompilowana baza danych foomatic (Compaq)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Compaq
+%description Compaq
 Compaq drivers.
 
-%description -n cups-foomatic-db-Compaq -l pl
+%description Compaq -l pl
 Sterowniki Compaq.
 
-%package -n cups-foomatic-db-DEC
+%package DEC
 Summary:	Precompiled foomatic database (DEC)
 Summary(pl):	Prekompilowana baza danych foomatic (DEC)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-DEC
+%description DEC
 DEC drivers.
 
-%description -n cups-foomatic-db-DEC -l pl
+%description DEC -l pl
 Sterowniki DEC.
 
-%package -n cups-foomatic-db-Dymo-CoStar
+%package Dymo-CoStar
 Summary:	Precompiled foomatic database (Dymo-CoStar)
 Summary(pl):	Prekompilowana baza danych foomatic (Dymo-CoStar)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Dymo-CoStar
+%description Dymo-CoStar
 Dymo-CoStar drivers.
 
-%description -n cups-foomatic-db-Dymo-CoStar -l pl
+%description Dymo-CoStar -l pl
 Sterowniki Dymo-CoStar.
 
-%package -n cups-foomatic-db-Epson
+%package Epson
 Summary:	Precompiled foomatic database (Epson)
 Summary(pl):	Prekompilowana baza danych foomatic (Epson)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Epson
+%description Epson
 Epson drivers.
 
-%description -n cups-foomatic-db-Epson -l pl
+%description Epson -l pl
 Sterowniki Epson.
 
-%package -n cups-foomatic-db-Fujitsu
+%package Fujitsu
 Summary:	Precompiled foomatic database (Fujitsu)
 Summary(pl):	Prekompilowana baza danych foomatic (Fujitsu)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Fujitsu
+%description Fujitsu
 Fujitsu drivers.
 
-%description -n cups-foomatic-db-Fujitsu -l pl
+%description Fujitsu -l pl
 Sterowniki Fujitsu.
 
-%package -n cups-foomatic-db-Generic
+%package Generic
 Summary:	Precompiled foomatic database (Generic)
 Summary(pl):	Prekompilowana baza danych foomatic (Generic)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Generic
+%description Generic
 Generic drivers.
 
-%description -n cups-foomatic-db-Generic -l pl
+%description Generic -l pl
 Sterowniki Generic.
 
-%package -n cups-foomatic-db-Gestetner
+%package Gestetner
 Summary:	Precompiled foomatic database (Gestetner)
 Summary(pl):	Prekompilowana baza danych foomatic (Gestetner)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Gestetner
+%description Gestetner
 Gestetner drivers.
 
-%description -n cups-foomatic-db-Gestetner -l pl
+%description Gestetner -l pl
 Sterowniki Gestetner.
 
-%package -n cups-foomatic-db-HP
+%package HP
 Summary:	Precompiled foomatic database (HP)
 Summary(pl):	Prekompilowana baza danych foomatic (HP)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-HP
+%description HP
 HP drivers.
 
-%description -n cups-foomatic-db-HP -l pl
+%description HP -l pl
 Sterowniki HP.
 
-%package -n cups-foomatic-db-IBM
+%package IBM
 Summary:	Precompiled foomatic database (IBM)
 Summary(pl):	Prekompilowana baza danych foomatic (IBM)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-IBM
+%description IBM
 IBM drivers.
 
-%description -n cups-foomatic-db-IBM -l pl
+%description IBM -l pl
 Sterowniki IBM.
 
-%package -n cups-foomatic-db-Infotec
+%package Infotec
 Summary:	Precompiled foomatic database (Infotec)
 Summary(pl):	Prekompilowana baza danych foomatic (Infotec)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Infotec
+%description Infotec
 Infotec drivers.
 
-%description -n cups-foomatic-db-Infotec -l pl
+%description Infotec -l pl
 Sterowniki Infotec.
 
-%package -n cups-foomatic-db-Kyocera
+%package Kyocera
 Summary:	Precompiled foomatic database (Kyocera)
 Summary(pl):	Prekompilowana baza danych foomatic (Kyocera)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Kyocera
+%description Kyocera
 Kyocera drivers.
 
-%description -n cups-foomatic-db-Kyocera -l pl
+%description Kyocera -l pl
 Sterowniki Kyocera.
 
-%package -n cups-foomatic-db-Lanier
+%package Lanier
 Summary:	Precompiled foomatic database (Lanier)
 Summary(pl):	Prekompilowana baza danych foomatic (Lanier)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Lanier
+%description Lanier
 Lanier drivers.
 
-%description -n cups-foomatic-db-Lanier -l pl
+%description Lanier -l pl
 Sterowniki Lanier.
 
-%package -n cups-foomatic-db-Lexmark
+%package Lexmark
 Summary:	Precompiled foomatic database (Lexmark)
 Summary(pl):	Prekompilowana baza danych foomatic (Lexmark)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Lexmark
+%description Lexmark
 Lexmark drivers.
 
-%description -n cups-foomatic-db-Lexmark -l pl
+%description Lexmark -l pl
 Sterowniki Lexmark.
 
-%package -n cups-foomatic-db-Minolta
+%package Minolta
 Summary:	Precompiled foomatic database (Minolta)
 Summary(pl):	Prekompilowana baza danych foomatic (Minolta)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Minolta
+%description Minolta
 Minolta drivers.
 
-%description -n cups-foomatic-db-Minolta -l pl
+%description Minolta -l pl
 Sterowniki Minolta.
 
-%package -n cups-foomatic-db-NEC
+%package NEC
 Summary:	Precompiled foomatic database (NEC)
 Summary(pl):	Prekompilowana baza danych foomatic (NEC)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-NEC
+%description NEC
 NEC drivers.
 
-%description -n cups-foomatic-db-NEC -l pl
+%description NEC -l pl
 Sterowniki NEC.
 
-%package -n cups-foomatic-db-NRG
+%package NRG
 Summary:	Precompiled foomatic database (NRG)
 Summary(pl):	Prekompilowana baza danych foomatic (NRG)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-NRG
+%description NRG
 NRG drivers.
 
-%description -n cups-foomatic-db-NRG -l pl
+%description NRG -l pl
 Sterowniki NRG.
 
-%package -n cups-foomatic-db-Okidata
+%package Okidata
 Summary:	Precompiled foomatic database (Okidata)
 Summary(pl):	Prekompilowana baza danych foomatic (Okidata)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Okidata
+%description Okidata
 Okidata drivers.
 
-%description -n cups-foomatic-db-Okidata -l pl
+%description Okidata -l pl
 Sterowniki Okidata.
 
-%package -n cups-foomatic-db-Olivetti
+%package Olivetti
 Summary:	Precompiled foomatic database (Olivetti)
 Summary(pl):	Prekompilowana baza danych foomatic (Olivetti)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Olivetti
+%description Olivetti
 Olivetti drivers.
 
-%description -n cups-foomatic-db-Olivetti -l pl
+%description Olivetti -l pl
 Sterowniki Olivetti.
 
-%package -n cups-foomatic-db-Panasonic
+%package Panasonic
 Summary:	Precompiled foomatic database (Panasonic)
 Summary(pl):	Prekompilowana baza danych foomatic (Panasonic)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Panasonic
+%description Panasonic
 Panasonic drivers.
 
-%description -n cups-foomatic-db-Panasonic -l pl
+%description Panasonic -l pl
 Sterowniki Panasonic.
 
-%package -n cups-foomatic-db-Ricoh
+%package Ricoh
 Summary:	Precompiled foomatic database (Ricoh)
 Summary(pl):	Prekompilowana baza danych foomatic (Ricoh)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Ricoh
+%description Ricoh
 Ricoh drivers.
 
-%description -n cups-foomatic-db-Ricoh -l pl
+%description Ricoh -l pl
 Sterowniki Ricoh.
 
-%package -n cups-foomatic-db-Samsung
+%package Samsung
 Summary:	Precompiled foomatic database (Samsung)
 Summary(pl):	Prekompilowana baza danych foomatic (Samsung)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Samsung
+%description Samsung
 Samsung drivers.
 
-%description -n cups-foomatic-db-Samsung -l pl
+%description Samsung -l pl
 Sterowniki Samsung.
 
-%package -n cups-foomatic-db-Savin
+%package Savin
 Summary:	Precompiled foomatic database (Savin)
 Summary(pl):	Prekompilowana baza danych foomatic (Savin)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Savin
+%description Savin
 Savin drivers.
 
-%description -n cups-foomatic-db-Savin -l pl
+%description Savin -l pl
 Sterowniki Savin.
 
-%package -n cups-foomatic-db-Sharp
+%package Sharp
 Summary:	Precompiled foomatic database (Sharp)
 Summary(pl):	Prekompilowana baza danych foomatic (Sharp)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Sharp
+%description Sharp
 Sharp drivers.
 
-%description -n cups-foomatic-db-Sharp -l pl
+%description Sharp -l pl
 Sterowniki Sharp.
 
-%package -n cups-foomatic-db-Star
+%package Star
 Summary:	Precompiled foomatic database (Star)
 Summary(pl):	Prekompilowana baza danych foomatic (Star)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Star
+%description Star
 Star drivers.
 
-%description -n cups-foomatic-db-Star -l pl
+%description Star -l pl
 Sterowniki Star.
 
-%package -n cups-foomatic-db-Tektronix
+%package Tektronix
 Summary:	Precompiled foomatic database (Tektronix)
 Summary(pl):	Prekompilowana baza danych foomatic (Tektronix)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Tektronix
+%description Tektronix
 Tektronix drivers.
 
-%description -n cups-foomatic-db-Tektronix -l pl
+%description Tektronix -l pl
 Sterowniki Tektronix.
 
-%package -n cups-foomatic-db-Xerox
+%package Xerox
 Summary:	Precompiled foomatic database (Xerox)
 Summary(pl):	Prekompilowana baza danych foomatic (Xerox)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-Xerox
+%description Xerox
 Xerox drivers.
 
-%description -n cups-foomatic-db-Xerox -l pl
+%description Xerox -l pl
 Sterowniki Xerox.
 
-%package -n cups-foomatic-db-other
+%package other
 Summary:	Precompiled foomatic database (other)
 Summary(pl):	Prekompilowana baza danych foomatic (inne)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 
-%description -n cups-foomatic-db-other
+%description other
 Other drivers.
 
-%description -n cups-foomatic-db-other -l pl
+%description other -l pl
 Inne sterowniki.
 
 %build
@@ -462,135 +462,135 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %dir %{_datadir}/cups/model/foomatic
 
-%files -n cups-foomatic-db-Alps
+%files Alps
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Alps-*
 
-%files -n cups-foomatic-db-Apollo
+%files Apollo
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Apollo-*
 
-%files -n cups-foomatic-db-Apple
+%files Apple
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Apple-*
 
-%files -n cups-foomatic-db-Brother
+%files Brother
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Brother-*
 
-%files -n cups-foomatic-db-Canon
+%files Canon
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Canon-*
 
-%files -n cups-foomatic-db-Citizen
+%files Citizen
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Citizen-*
 
-%files -n cups-foomatic-db-Compaq
+%files Compaq
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Compaq-*
 
-%files -n cups-foomatic-db-DEC
+%files DEC
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/DEC-*
 
-%files -n cups-foomatic-db-Dymo-CoStar
+%files Dymo-CoStar
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Dymo-CoStar-*
 
-%files -n cups-foomatic-db-Epson
+%files Epson
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Epson-*
 
-%files -n cups-foomatic-db-Fujitsu
+%files Fujitsu
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Fujitsu-*
 
-%files -n cups-foomatic-db-Generic
+%files Generic
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Generic-*
 
-%files -n cups-foomatic-db-Gestetner
+%files Gestetner
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Gestetner-*
 
-%files -n cups-foomatic-db-HP
+%files HP
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/HP-*
 
-%files -n cups-foomatic-db-IBM
+%files IBM
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/IBM-*
 
-%files -n cups-foomatic-db-Infotec
+%files Infotec
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Infotec-*
 
-%files -n cups-foomatic-db-Kyocera
+%files Kyocera
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Kyocera-*
 
-%files -n cups-foomatic-db-Lanier
+%files Lanier
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Lanier-*
 
-%files -n cups-foomatic-db-Lexmark
+%files Lexmark
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Lexmark-*
 
-%files -n cups-foomatic-db-Minolta
+%files Minolta
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Minolta-*
 
-%files -n cups-foomatic-db-NEC
+%files NEC
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/NEC-*
 
-%files -n cups-foomatic-db-NRG
+%files NRG
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/NRG-*
 
-%files -n cups-foomatic-db-Okidata
+%files Okidata
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Okidata-*
 
-%files -n cups-foomatic-db-Olivetti
+%files Olivetti
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Olivetti-*
 
-%files -n cups-foomatic-db-Panasonic
+%files Panasonic
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Panasonic-*
 
-%files -n cups-foomatic-db-Ricoh
+%files Ricoh
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Ricoh-*
 
-%files -n cups-foomatic-db-Samsung
+%files Samsung
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Samsung-*
 
-%files -n cups-foomatic-db-Savin
+%files Savin
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Savin-*
 
-%files -n cups-foomatic-db-Sharp
+%files Sharp
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Sharp-*
 
-%files -n cups-foomatic-db-Star
+%files Star
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Star-*
 
-%files -n cups-foomatic-db-Tektronix
+%files Tektronix
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Tektronix-*
 
-%files -n cups-foomatic-db-Xerox
+%files Xerox
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Xerox-*
 
-%files -n cups-foomatic-db-other
+%files other
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Anitech-*
 %{_datadir}/cups/model/foomatic/Avery-*
