@@ -1,7 +1,6 @@
-# TODO: spec filename vs Name
 Summary:	Precompiled foomatic database
 Summary(pl):	Prekompilowana baza danych foomatic
-Name:		cups-foomatic-db-common
+Name:		cups-foomatic-db
 Version:	20050405
 Release:	0.1
 License:	GPL	
