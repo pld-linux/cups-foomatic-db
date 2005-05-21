@@ -2,13 +2,14 @@ Summary:	Precompiled foomatic database
 Summary(pl):	Prekompilowana baza danych foomatic
 Name:		cups-foomatic-db
 Version:	20050405
-Release:	0.1
+Release:	0.2
 License:	GPL	
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
 Requires:	cups-filter-foomatic >= 3.0.0
 Requires:	cups-foomatic-db-driver
 BuildRequires:	foomatic-db = %{version}
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
