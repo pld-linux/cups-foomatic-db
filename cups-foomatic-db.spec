@@ -448,7 +448,7 @@ Other drivers.
 Inne sterowniki.
 
 %prep
-%setup -c -T -n %{name}-%{version}
+%setup -q -c -T
 
 %build
 foomatic-compiledb -t ppd -d . -j 1
