@@ -271,6 +271,7 @@ Summary(pl):	Prekompilowana baza danych foomatic (Minolta)
 Group:		Applications/System
 Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Requires:	min12xxw
 
 %description Minolta
 Minolta drivers.
