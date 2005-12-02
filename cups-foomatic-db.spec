@@ -1,7 +1,7 @@
 Summary:	Precompiled foomatic database
 Summary(pl):	Prekompilowana baza danych foomatic
 Name:		cups-foomatic-db
-Version:	20050405
+Version:	20051123
 Release:	1
 License:	GPL	
 Group:		Applications/System
