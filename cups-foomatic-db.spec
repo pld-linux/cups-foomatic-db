@@ -3,12 +3,12 @@ Summary(pl):	Prekompilowana baza danych foomatic
 Name:		cups-foomatic-db
 Version:	20051123
 Release:	1
-License:	GPL	
+License:	GPL
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
+BuildRequires:	foomatic-db = %{version}
 Requires:	cups-filter-foomatic >= 3.0.0
 Requires:	cups-foomatic-db-driver
-BuildRequires:	foomatic-db = %{version}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -22,8 +22,8 @@ Prekompilowana baza danych foomatic - dane wspólne.
 Summary:	Precompiled foomatic database (Alps)
 Summary(pl):	Prekompilowana baza danych foomatic (Alps)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Alps
 Alps drivers.
@@ -35,8 +35,8 @@ Sterowniki Alps.
 Summary:	Precompiled foomatic database (Apollo)
 Summary(pl):	Prekompilowana baza danych foomatic (Apollo)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Apollo
 Apollo drivers.
@@ -48,8 +48,8 @@ Sterowniki Apollo.
 Summary:	Precompiled foomatic database (Apple)
 Summary(pl):	Prekompilowana baza danych foomatic (Apple)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Apple
 Apple drivers.
@@ -61,8 +61,8 @@ Sterowniki Apple.
 Summary:	Precompiled foomatic database (Brother)
 Summary(pl):	Prekompilowana baza danych foomatic (Brother)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Brother
 Brother drivers.
@@ -74,8 +74,8 @@ Sterowniki Brother.
 Summary:	Precompiled foomatic database (Canon)
 Summary(pl):	Prekompilowana baza danych foomatic (Canon)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Canon
 Canon drivers.
@@ -87,8 +87,8 @@ Sterowniki Canon.
 Summary:	Precompiled foomatic database (Citizen)
 Summary(pl):	Prekompilowana baza danych foomatic (Citizen)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Citizen
 Citizen drivers.
@@ -100,8 +100,8 @@ Sterowniki Citizen.
 Summary:	Precompiled foomatic database (Compaq)
 Summary(pl):	Prekompilowana baza danych foomatic (Compaq)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Compaq
 Compaq drivers.
@@ -113,8 +113,8 @@ Sterowniki Compaq.
 Summary:	Precompiled foomatic database (DEC)
 Summary(pl):	Prekompilowana baza danych foomatic (DEC)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description DEC
 DEC drivers.
@@ -126,8 +126,8 @@ Sterowniki DEC.
 Summary:	Precompiled foomatic database (Dymo-CoStar)
 Summary(pl):	Prekompilowana baza danych foomatic (Dymo-CoStar)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Dymo-CoStar
 Dymo-CoStar drivers.
@@ -139,8 +139,8 @@ Sterowniki Dymo-CoStar.
 Summary:	Precompiled foomatic database (Epson)
 Summary(pl):	Prekompilowana baza danych foomatic (Epson)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Epson
 Epson drivers.
@@ -152,8 +152,8 @@ Sterowniki Epson.
 Summary:	Precompiled foomatic database (Fujitsu)
 Summary(pl):	Prekompilowana baza danych foomatic (Fujitsu)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Fujitsu
 Fujitsu drivers.
@@ -165,8 +165,8 @@ Sterowniki Fujitsu.
 Summary:	Precompiled foomatic database (Generic)
 Summary(pl):	Prekompilowana baza danych foomatic (Generic)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Generic
 Generic drivers.
@@ -178,8 +178,8 @@ Sterowniki Generic.
 Summary:	Precompiled foomatic database (Gestetner)
 Summary(pl):	Prekompilowana baza danych foomatic (Gestetner)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Gestetner
 Gestetner drivers.
@@ -191,8 +191,8 @@ Sterowniki Gestetner.
 Summary:	Precompiled foomatic database (HP)
 Summary(pl):	Prekompilowana baza danych foomatic (HP)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description HP
 HP drivers.
@@ -204,8 +204,8 @@ Sterowniki HP.
 Summary:	Precompiled foomatic database (IBM)
 Summary(pl):	Prekompilowana baza danych foomatic (IBM)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description IBM
 IBM drivers.
@@ -217,8 +217,8 @@ Sterowniki IBM.
 Summary:	Precompiled foomatic database (Infotec)
 Summary(pl):	Prekompilowana baza danych foomatic (Infotec)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Infotec
 Infotec drivers.
@@ -230,8 +230,8 @@ Sterowniki Infotec.
 Summary:	Precompiled foomatic database (Kyocera)
 Summary(pl):	Prekompilowana baza danych foomatic (Kyocera)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Kyocera
 Kyocera drivers.
@@ -243,8 +243,8 @@ Sterowniki Kyocera.
 Summary:	Precompiled foomatic database (Lanier)
 Summary(pl):	Prekompilowana baza danych foomatic (Lanier)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Lanier
 Lanier drivers.
@@ -256,8 +256,8 @@ Sterowniki Lanier.
 Summary:	Precompiled foomatic database (Lexmark)
 Summary(pl):	Prekompilowana baza danych foomatic (Lexmark)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Lexmark
 Lexmark drivers.
@@ -269,9 +269,9 @@ Sterowniki Lexmark.
 Summary:	Precompiled foomatic database (Minolta)
 Summary(pl):	Prekompilowana baza danych foomatic (Minolta)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
 Requires:	min12xxw
+Provides:	%{name}-driver
 
 %description Minolta
 Minolta drivers.
@@ -283,8 +283,8 @@ Sterowniki Minolta.
 Summary:	Precompiled foomatic database (NEC)
 Summary(pl):	Prekompilowana baza danych foomatic (NEC)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description NEC
 NEC drivers.
@@ -296,8 +296,8 @@ Sterowniki NEC.
 Summary:	Precompiled foomatic database (NRG)
 Summary(pl):	Prekompilowana baza danych foomatic (NRG)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description NRG
 NRG drivers.
@@ -309,8 +309,8 @@ Sterowniki NRG.
 Summary:	Precompiled foomatic database (Okidata)
 Summary(pl):	Prekompilowana baza danych foomatic (Okidata)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Okidata
 Okidata drivers.
@@ -322,8 +322,8 @@ Sterowniki Okidata.
 Summary:	Precompiled foomatic database (Olivetti)
 Summary(pl):	Prekompilowana baza danych foomatic (Olivetti)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Olivetti
 Olivetti drivers.
@@ -335,8 +335,8 @@ Sterowniki Olivetti.
 Summary:	Precompiled foomatic database (Panasonic)
 Summary(pl):	Prekompilowana baza danych foomatic (Panasonic)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Panasonic
 Panasonic drivers.
@@ -348,8 +348,8 @@ Sterowniki Panasonic.
 Summary:	Precompiled foomatic database (Ricoh)
 Summary(pl):	Prekompilowana baza danych foomatic (Ricoh)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Ricoh
 Ricoh drivers.
@@ -361,8 +361,8 @@ Sterowniki Ricoh.
 Summary:	Precompiled foomatic database (Samsung)
 Summary(pl):	Prekompilowana baza danych foomatic (Samsung)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Samsung
 Samsung drivers.
@@ -374,8 +374,8 @@ Sterowniki Samsung.
 Summary:	Precompiled foomatic database (Savin)
 Summary(pl):	Prekompilowana baza danych foomatic (Savin)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Savin
 Savin drivers.
@@ -387,8 +387,8 @@ Sterowniki Savin.
 Summary:	Precompiled foomatic database (Sharp)
 Summary(pl):	Prekompilowana baza danych foomatic (Sharp)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Sharp
 Sharp drivers.
@@ -400,8 +400,8 @@ Sterowniki Sharp.
 Summary:	Precompiled foomatic database (Star)
 Summary(pl):	Prekompilowana baza danych foomatic (Star)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Star
 Star drivers.
@@ -413,8 +413,8 @@ Sterowniki Star.
 Summary:	Precompiled foomatic database (Tektronix)
 Summary(pl):	Prekompilowana baza danych foomatic (Tektronix)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Tektronix
 Tektronix drivers.
@@ -426,8 +426,8 @@ Sterowniki Tektronix.
 Summary:	Precompiled foomatic database (Xerox)
 Summary(pl):	Prekompilowana baza danych foomatic (Xerox)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description Xerox
 Xerox drivers.
@@ -439,8 +439,8 @@ Sterowniki Xerox.
 Summary:	Precompiled foomatic database (other)
 Summary(pl):	Prekompilowana baza danych foomatic (inne)
 Group:		Applications/System
-Provides:	%{name}-driver
 Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
 
 %description other
 Other drivers.
