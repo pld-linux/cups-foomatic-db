@@ -1,13 +1,14 @@
 Summary:	Precompiled foomatic database
 Summary(pl):	Prekompilowana baza danych foomatic
 Name:		cups-foomatic-db
-Version:	20051123
+Version:	20060810
 Release:	1
 License:	GPL
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
 BuildRequires:	foomatic-db = %{version}
-Requires:	cups-filter-foomatic >= 3.0.0
+BuildRequires:	foomatic-db-hpijs = %{version}
+Requires:	cups-filter-foomatic >= 3.0.2
 Requires:	cups-foomatic-db-driver
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -605,6 +606,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/cups/model/foomatic/Hitachi-*
 %{_datadir}/cups/model/foomatic/Imagen-*
 %{_datadir}/cups/model/foomatic/Kodak-*
+%{_datadir}/cups/model/foomatic/KonicaMinolta-*
 %{_datadir}/cups/model/foomatic/Mitsubishi-*
 %{_datadir}/cups/model/foomatic/Oce-*
 %{_datadir}/cups/model/foomatic/PCPI-*
@@ -612,4 +614,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/cups/model/foomatic/QMS-*
 %{_datadir}/cups/model/foomatic/Raven-*
 %{_datadir}/cups/model/foomatic/Seiko-*
+%{_datadir}/cups/model/foomatic/Sony-*
 %{_datadir}/cups/model/foomatic/Tally-*
