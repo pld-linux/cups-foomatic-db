@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
 BuildRequires:	foomatic-db = %{version}
-BuildRequires:	foomatic-db-hpijs = %{version}
+BuildRequires:	foomatic-db-hpijs = 2:%{version}
 Requires:	cups-filter-foomatic >= 3.0.2
 Requires:	cups-foomatic-db-driver
 BuildArch:	noarch
