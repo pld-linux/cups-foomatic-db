@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Precompiled foomatic database - common data.
 
-%description
+%description -l pl
 Prekompilowana baza danych foomatic - dane wspólne.
 
 %package Alps
