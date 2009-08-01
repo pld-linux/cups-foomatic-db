@@ -1,7 +1,7 @@
 Summary:	Precompiled foomatic database
 Summary(pl.UTF-8):	Prekompilowana baza danych foomatic
 Name:		cups-foomatic-db
-Version:	20080317
+Version:	20081228
 Release:	1
 License:	GPL
 Group:		Applications/System
@@ -10,6 +10,10 @@ BuildRequires:	foomatic-db = %{version}
 BuildRequires:	foomatic-db-hpijs = 2:%{version}
 Requires:	cups-filter-foomatic >= 3.0.2
 Requires:	cups-foomatic-db-driver
+Obsoletes:	cups-foomatic-db-Gestetner
+Obsoletes:	cups-foomatic-db-Lanier
+Obsoletes:	cups-foomatic-db-NRG
+Obsoletes:	cups-foomatic-db-Savin
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -175,19 +179,6 @@ Generic drivers.
 %description Generic -l pl.UTF-8
 Sterowniki Generic.
 
-%package Gestetner
-Summary:	Precompiled foomatic database (Gestetner)
-Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (Gestetner)
-Group:		Applications/System
-Requires:	%{name} = %{version}-%{release}
-Provides:	%{name}-driver
-
-%description Gestetner
-Gestetner drivers.
-
-%description Gestetner -l pl.UTF-8
-Sterowniki Gestetner.
-
 %package HP
 Summary:	Precompiled foomatic database (HP)
 Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (HP)
@@ -240,19 +231,6 @@ Kyocera drivers.
 %description Kyocera -l pl.UTF-8
 Sterowniki Kyocera.
 
-%package Lanier
-Summary:	Precompiled foomatic database (Lanier)
-Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (Lanier)
-Group:		Applications/System
-Requires:	%{name} = %{version}-%{release}
-Provides:	%{name}-driver
-
-%description Lanier
-Lanier drivers.
-
-%description Lanier -l pl.UTF-8
-Sterowniki Lanier.
-
 %package Lexmark
 Summary:	Precompiled foomatic database (Lexmark)
 Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (Lexmark)
@@ -293,31 +271,19 @@ NEC drivers.
 %description NEC -l pl.UTF-8
 Sterowniki NEC.
 
-%package NRG
-Summary:	Precompiled foomatic database (NRG)
-Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (NRG)
+%package Oki
+Summary:	Precompiled foomatic database (Oki)
+Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (Oki)
 Group:		Applications/System
 Requires:	%{name} = %{version}-%{release}
 Provides:	%{name}-driver
+Obsoletes:	cups-foomatic-db-Oki
 
-%description NRG
-NRG drivers.
+%description Oki
+Oki drivers.
 
-%description NRG -l pl.UTF-8
-Sterowniki NRG.
-
-%package Okidata
-Summary:	Precompiled foomatic database (Okidata)
-Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (Okidata)
-Group:		Applications/System
-Requires:	%{name} = %{version}-%{release}
-Provides:	%{name}-driver
-
-%description Okidata
-Okidata drivers.
-
-%description Okidata -l pl.UTF-8
-Sterowniki Okidata.
+%description Oki -l pl.UTF-8
+Sterowniki Oki.
 
 %package Olivetti
 Summary:	Precompiled foomatic database (Olivetti)
@@ -371,19 +337,6 @@ Samsung drivers.
 %description Samsung -l pl.UTF-8
 Sterowniki Samsung.
 
-%package Savin
-Summary:	Precompiled foomatic database (Savin)
-Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (Savin)
-Group:		Applications/System
-Requires:	%{name} = %{version}-%{release}
-Provides:	%{name}-driver
-
-%description Savin
-Savin drivers.
-
-%description Savin -l pl.UTF-8
-Sterowniki Savin.
-
 %package Sharp
 Summary:	Precompiled foomatic database (Sharp)
 Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (Sharp)
@@ -422,6 +375,19 @@ Tektronix drivers.
 
 %description Tektronix -l pl.UTF-8
 Sterowniki Tektronix.
+
+%package Toshiba
+Summary:	Precompiled foomatic database (Toshiba)
+Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (Toshiba)
+Group:		Applications/System
+Requires:	%{name} = %{version}-%{release}
+Provides:	%{name}-driver
+
+%description Toshiba
+Toshiba drivers.
+
+%description Toshiba -l pl.UTF-8
+Sterowniki Toshiba.
 
 %package Xerox
 Summary:	Precompiled foomatic database (Xerox)
@@ -516,10 +482,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Generic-*
 
-%files Gestetner
-%defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Gestetner-*
-
 %files HP
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/HP-*
@@ -536,29 +498,21 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Kyocera-*
 
-%files Lanier
-%defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Lanier-*
-
 %files Lexmark
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Lexmark-*
 
 %files Minolta
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Minolta-*
+%{_datadir}/cups/model/foomatic/Minolta*
 
 %files NEC
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/NEC-*
 
-%files NRG
+%files Oki
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/NRG-*
-
-%files Okidata
-%defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Okidata-*
+%{_datadir}/cups/model/foomatic/Oki-*
 
 %files Olivetti
 %defattr(644,root,root,755)
@@ -576,10 +530,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Samsung-*
 
-%files Savin
-%defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Savin-*
-
 %files Sharp
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Sharp-*
@@ -592,6 +542,10 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Tektronix-*
 
+%files Toshiba
+%defattr(644,root,root,755)
+%{_datadir}/cups/model/foomatic/Toshiba-*
+
 %files Xerox
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Xerox-*
@@ -602,11 +556,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/cups/model/foomatic/Avery-*
 %{_datadir}/cups/model/foomatic/CItoh-*
 %{_datadir}/cups/model/foomatic/Dell-*
+%{_datadir}/cups/model/foomatic/Genicom-*
 %{_datadir}/cups/model/foomatic/Heidelberg-*
 %{_datadir}/cups/model/foomatic/Hitachi-*
 %{_datadir}/cups/model/foomatic/Imagen-*
 %{_datadir}/cups/model/foomatic/Kodak-*
-#%{_datadir}/cups/model/foomatic/KonicaMinolta-*
 %{_datadir}/cups/model/foomatic/Mitsubishi-*
 %{_datadir}/cups/model/foomatic/Oce-*
 %{_datadir}/cups/model/foomatic/PCPI-*
@@ -614,5 +568,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/cups/model/foomatic/QMS-*
 %{_datadir}/cups/model/foomatic/Raven-*
 %{_datadir}/cups/model/foomatic/Seiko-*
+%{_datadir}/cups/model/foomatic/SiPix-*
 %{_datadir}/cups/model/foomatic/Sony-*
 %{_datadir}/cups/model/foomatic/Tally-*
+%{_datadir}/cups/model/foomatic/Xante-*
