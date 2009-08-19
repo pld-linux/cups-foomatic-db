@@ -2,7 +2,7 @@ Summary:	Precompiled foomatic database
 Summary(pl.UTF-8):	Prekompilowana baza danych foomatic
 Name:		cups-foomatic-db
 Version:	20081228
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
@@ -277,7 +277,7 @@ Summary(pl.UTF-8):	Prekompilowana baza danych foomatic (Oki)
 Group:		Applications/System
 Requires:	%{name} = %{version}-%{release}
 Provides:	%{name}-driver
-Obsoletes:	cups-foomatic-db-Oki
+Obsoletes:	cups-foomatic-db-Okidata
 
 %description Oki
 Oki drivers.
