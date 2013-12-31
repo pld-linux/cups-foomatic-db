@@ -412,10 +412,14 @@ Requires:	%{name} = %{version}-%{release}
 Provides:	%{name}-driver
 
 %description other
-Other drivers.
+Other drivers: Anitech, Avery, CItoh, Dell, Genicom, Heidelberg,
+Hitachi, Imagen, Imagistics, Kodak, Mitsubishi, Oce, PCPI, Pentax,
+QMS, Raven, Seiko, SiPix, Sony, Tally, Texas Instruments, Xante.
 
 %description other -l pl.UTF-8
-Inne sterowniki.
+Inne sterowniki: Anitech, Avery, CItoh, Dell, Genicom, Heidelberg,
+Hitachi, Imagen, Imagistics, Kodak, Mitsubishi, Oce, PCPI, Pentax,
+QMS, Raven, Seiko, SiPix, Sony, Tally, Texas Instruments, Xante.
 
 %prep
 %setup -q -c -T
@@ -438,139 +442,141 @@ rm -rf $RPM_BUILD_ROOT
 
 %files Alps
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Alps-*
+%{_datadir}/cups/model/foomatic/Alps-*.ppd.gz
 
 %files Apollo
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Apollo-*
+%{_datadir}/cups/model/foomatic/Apollo-*.ppd.gz
 
 %files Apple
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Apple-*
+%{_datadir}/cups/model/foomatic/Apple-*.ppd.gz
 
 %files Brother
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Brother-*
+%{_datadir}/cups/model/foomatic/Brother-*.ppd.gz
 
 %files Canon
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Canon-*
+%{_datadir}/cups/model/foomatic/Canon-*.ppd.gz
 
 %files Citizen
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Citizen-*
+%{_datadir}/cups/model/foomatic/Citizen-*.ppd.gz
 
 %files Compaq
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Compaq-*
+%{_datadir}/cups/model/foomatic/Compaq-*.ppd.gz
 
 %files DEC
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/DEC-*
+%{_datadir}/cups/model/foomatic/DEC-*.ppd.gz
 
 %files Dymo-CoStar
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Dymo-CoStar-*
+%{_datadir}/cups/model/foomatic/Dymo-CoStar-*.ppd.gz
 
 %files Epson
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Epson-*
+%{_datadir}/cups/model/foomatic/Epson-*.ppd.gz
 
 %files Fujitsu
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Fujitsu-*
+%{_datadir}/cups/model/foomatic/Fujitsu-*.ppd.gz
 
 %files Generic
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Generic-*
+%{_datadir}/cups/model/foomatic/Generic-*.ppd.gz
 
 %files HP
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/HP-*
+%{_datadir}/cups/model/foomatic/HP-*.ppd.gz
 
 %files IBM
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/IBM-*
+%{_datadir}/cups/model/foomatic/IBM-*.ppd.gz
 
 %files Infotec
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Infotec-*
+%{_datadir}/cups/model/foomatic/Infotec-*.ppd.gz
 
 %files Kyocera
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Kyocera-*
+%{_datadir}/cups/model/foomatic/Kyocera-*.ppd.gz
 
 %files Lexmark
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Lexmark-*
+%{_datadir}/cups/model/foomatic/Lexmark-*.ppd.gz
 
 %files Minolta
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Minolta*
+%{_datadir}/cups/model/foomatic/Minolta*.ppd.gz
 
 %files NEC
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/NEC-*
+%{_datadir}/cups/model/foomatic/NEC-*.ppd.gz
 
 %files Oki
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Oki-*
+%{_datadir}/cups/model/foomatic/Oki-*.ppd.gz
 
 %files Olivetti
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Olivetti-*
+%{_datadir}/cups/model/foomatic/Olivetti-*.ppd.gz
 
 %files Panasonic
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Panasonic-*
+%{_datadir}/cups/model/foomatic/Panasonic-*.ppd.gz
 
 %files Ricoh
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Ricoh-*
+%{_datadir}/cups/model/foomatic/Ricoh-*.ppd.gz
 
 %files Samsung
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Samsung-*
+%{_datadir}/cups/model/foomatic/Samsung-*.ppd.gz
 
 %files Sharp
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Sharp-*
+%{_datadir}/cups/model/foomatic/Sharp-*.ppd.gz
 
 %files Star
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Star-*
+%{_datadir}/cups/model/foomatic/Star-*.ppd.gz
 
 %files Tektronix
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Tektronix-*
+%{_datadir}/cups/model/foomatic/Tektronix-*.ppd.gz
 
 %files Toshiba
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Toshiba-*
+%{_datadir}/cups/model/foomatic/Toshiba-*.ppd.gz
 
 %files Xerox
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Xerox-*
+%{_datadir}/cups/model/foomatic/Xerox-*.ppd.gz
 
 %files other
 %defattr(644,root,root,755)
-%{_datadir}/cups/model/foomatic/Anitech-*
-%{_datadir}/cups/model/foomatic/Avery-*
-%{_datadir}/cups/model/foomatic/CItoh-*
-%{_datadir}/cups/model/foomatic/Dell-*
-%{_datadir}/cups/model/foomatic/Genicom-*
-%{_datadir}/cups/model/foomatic/Heidelberg-*
-%{_datadir}/cups/model/foomatic/Hitachi-*
-%{_datadir}/cups/model/foomatic/Imagen-*
-%{_datadir}/cups/model/foomatic/Kodak-*
-%{_datadir}/cups/model/foomatic/Mitsubishi-*
-%{_datadir}/cups/model/foomatic/Oce-*
-%{_datadir}/cups/model/foomatic/PCPI-*
-%{_datadir}/cups/model/foomatic/Pentax-*
-%{_datadir}/cups/model/foomatic/QMS-*
-%{_datadir}/cups/model/foomatic/Raven-*
-%{_datadir}/cups/model/foomatic/Seiko-*
-%{_datadir}/cups/model/foomatic/SiPix-*
-%{_datadir}/cups/model/foomatic/Sony-*
-%{_datadir}/cups/model/foomatic/Tally-*
-%{_datadir}/cups/model/foomatic/Xante-*
+%{_datadir}/cups/model/foomatic/Anitech-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Avery-*.ppd.gz
+%{_datadir}/cups/model/foomatic/CItoh-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Dell-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Genicom-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Heidelberg-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Hitachi-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Imagen-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Imagistics-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Kodak-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Mitsubishi-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Oce-*.ppd.gz
+%{_datadir}/cups/model/foomatic/PCPI-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Pentax-*.ppd.gz
+%{_datadir}/cups/model/foomatic/QMS-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Raven-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Seiko-*.ppd.gz
+%{_datadir}/cups/model/foomatic/SiPix-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Sony-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Tally-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Texas_Instruments-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Xante-*.ppd.gz
