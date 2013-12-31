@@ -421,7 +421,7 @@ Inne sterowniki.
 %setup -q -c -T
 
 %build
-foomatic-compiledb -t ppd -d . -j 1
+foomatic-compiledb -t ppd -d ppd -j 1
 gzip ppd/*
 
 %install
