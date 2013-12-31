@@ -1,8 +1,8 @@
 Summary:	Precompiled foomatic database
 Summary(pl.UTF-8):	Prekompilowana baza danych foomatic
 Name:		cups-foomatic-db
-Version:	20081228
-Release:	3
+Version:	20110615
+Release:	1
 License:	GPL
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
