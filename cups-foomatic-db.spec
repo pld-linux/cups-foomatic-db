@@ -1,13 +1,15 @@
+# TODO: update hpijs -> nonfree
 Summary:	Precompiled foomatic database
 Summary(pl.UTF-8):	Prekompilowana baza danych foomatic
 Name:		cups-foomatic-db
 Version:	20110615
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
 BuildRequires:	foomatic-db = %{version}
-BuildRequires:	foomatic-db-hpijs = 2:%{version}
+BuildRequires:	foomatic-db-hpijs = 2:20081228
+#BuildRequires:	foomatic-db-hpijs = 2:%{version}
 Requires:	cups-filters >= 1.0.43
 Requires:	cups-foomatic-db-driver
 Obsoletes:	cups-foomatic-db-Gestetner
