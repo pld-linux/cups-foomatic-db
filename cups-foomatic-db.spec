@@ -2,8 +2,8 @@
 Summary:	Precompiled foomatic database
 Summary(pl.UTF-8):	Prekompilowana baza danych foomatic
 Name:		cups-foomatic-db
-Version:	20110615
-Release:	2
+Version:	20190510
+Release:	1
 License:	GPL
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
@@ -511,6 +511,7 @@ rm -rf $RPM_BUILD_ROOT
 %files Minolta
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Minolta*.ppd.gz
+%{_datadir}/cups/model/foomatic/KONICA_MINOLTA-*.ppd.gz
 
 %files NEC
 %defattr(644,root,root,755)
@@ -555,6 +556,7 @@ rm -rf $RPM_BUILD_ROOT
 %files Xerox
 %defattr(644,root,root,755)
 %{_datadir}/cups/model/foomatic/Xerox-*.ppd.gz
+%{_datadir}/cups/model/foomatic/Fuji_Xerox-*.ppd.gz
 
 %files other
 %defattr(644,root,root,755)
